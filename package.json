@@ -1,0 +1,12 @@
+{
+  "name": "eslint-plugin-custom-rules",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "find . -name 'index.test.js' | xargs -I {} node {}"
+  },
+  "devDependencies": {
+    "eslint": "^9.12.0"
+  }
+}
